@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Us </title>
+  <link rel="shortcut icon" href="images/short-icon.png">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> <!--from: https://bootstrapcdn-dev-pr-1284.herokuapp.com/fontawesome/ -->
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/slick-theme.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/select2.min.css" />
+  <link rel="stylesheet" href="css/select2-bootstrap5.min.css" />
+  <link rel="stylesheet" href="css/slick-animation.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div id="progess">
+    <span id="progess-value"></span>
+  </div>
+  <!-- header -->
+  <header id="main-header">
+    <div class="main-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-expand-lg navbar-light p-2">
+              <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon" data-toggle="collapse">
+                  <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                  <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                </div>
+              </a>
+              <a href="index.html" class="navbar-brand">
+                <img src="images/logo.png" class="img-fluid logo" alt="" />
+              </a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="menu-main-menu-container">
+                  <ul id="top-menu" class="navbar-nav ml-auto">
+                    <li class="menu-item"><a href="index.html">Home</a></li>
+                    <li class="menu-item"><a href="p-animes.html">Watch</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="manga.html"> read Manga</a></li>
+                    </ul>
+                    </li>
+                    <li class="menu-item"><a href="joinus.html" id="active">Join Us</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="aboutus.html">About Us</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item"><a href="#">category</a>
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="#">Action</a></li>
+                        <li class="menu-item"><a href="#">Comedy</a></li>
+                        <li class="menu-item"><a href="#">Adventures</a></li>
+                        <li class="menu-item"><a href="#">Fantasy</a></li>
+                        <li class="menu-item"><a href="#">Romance</a></li>
+                        <li class="menu-item"><a href="#">Horror</a></li>
+                        <li class="menu-item"><a href="#">Sci-Fi</a></li>
+                        <li class="menu-item"><a href="#">School</a></li>
+                      </ul>
+                    </li>
+                    <li class="menu-item "><i class="fa fa-language"></i><a>English</a>
+                    
+                  </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="mobile-more-menu">
+                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton" data-toggle="more-toggle"
+                  aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-ellipsis-h"></i>
+                </a>
+                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                  <div class="navbar-right position-relative">
+                    <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                      <li>
+                        <a href="#" class="search-toggle">
+                          <i class="fa fa-search"></i>
+                        </a>
+                        <div class="search-box iq-search-bar">
+                          <form action="p-animes.html" id="search_form" class="searchbox">
+                            <div class="form-group position-relative">
+                              <input type="text" class="text search-input font-size-12"
+                                placeholder="type here to search..." />
+                              <i class="search-link fa fa-search"></i>
+                            </div>
+                          </form>
+                        </div>
+                      </li>
+                      <li>
+                        <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center">
+                          <img src="images/user/user-icon.jpg" class="img-fluid user-m rounded-circle" alt="" />
+                        </a>
+                        <div class="iq-sub-dropdown iq-user-dropdown">
+                          <div class="iq-card shadow-none m-0">
+                            <div class="iq-card-body p-0 pl-3 pr-3">
+                              <a href="./setting.html" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-cog text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Settings</h6>
+                                  </div>
+                                </div>
+                              </a>
+                              <a href="./login.html" class="iq-sub-card setting-dropdown">
+                                <div class="media align-items-center">
+                                  <div class="right-icon">
+                                    <i class="fa fa-sign-out text-primary"></i>
+                                  </div>
+                                  <div class="media-body ml-3">
+                                    <h6 class="mb-0">Sign In</h6>
+                                  </div>
+                                </div>
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="navbar-right menu-right">
+                <ul class="d-flex align-items-center list-inline m-0">
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="search-toggle device-search">
+                      <i class="fa fa-search"></i>
+                    </a>
+                    <div class="search-box iq-search-bar d-search">
+                      <form action="p-animes.html" id="search_form" class="searchbox">
+                        <div class="form-group position-relative">
+                          <input type="text" class="text search-input font-size-12 validate" name="search" id="search"
+                            placeholder="type here to search..." />
+                          <i class="search-link fa fa-search"></i>
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+
+                  <li class="nav-item nav-icon">
+                    <a href="#" class="iq-user-dropdown search-toggle d-flex align-items-center p-0">
+                      <img src="images/user/user-icon.jpg" class="img-fluid user-m rounded-circle" alt="" />
+                    </a>
+                    <div class="iq-sub-dropdown iq-user-dropdown">
+                      <div class="iq-card shadow-none m-0">
+                        <div class="iq-card-body p-0 pl-3 pr-3">
+                          <a href="./setting.html" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-cog text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Settings</h6>
+                              </div>
+                            </div>
+                          </a>
+                          <a href="./login.html" class="iq-sub-card setting-dropdown">
+                            <div class="media align-items-center">
+                              <div class="right-icon">
+                                <i class="fa fa-sign-out text-primary"></i>
+                              </div>
+                              <div class="media-body ml-3">
+                                <h6 class="mb-0">Sign In</h6>
+                              </div>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="nav-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+      <!-- Join Us-->
+      <section id="joinus">
+        <h2>Enhance Your Watching Experience with Anime TV</h2>
+        <div class="btn">
+            <a class="red" href="#registration">Join Us</a>
+            <a class="yellow" href="p-animes.html">Watch Now</a>
+        </div>
+    </section>
+    
+    <!-- features -->
+    <section id="features">
+        <h1>Awesone Features</h1>
+        <div class="fea-base">
+            <div class="fea-box">
+                <img src="images/gif/1.png" data-alt-src="images/gif/1.gif">
+                <h3>High Definition</h3>
+            </div>
+            <div class="fea-box">
+              <img src="images/gif/4.png" data-alt-src="images/gif/4.gif">
+              <h3>Unlimited Anime Series</h3>
+            </div>
+            <div class="fea-box">
+              <img src="images/gif/10.png" data-alt-src="images/gif/10.gif">
+              <h3>Unlimited Watch</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="popular">
+        <h1>Latest Updates | Our Popular Anime</h1>
+        <div class="popular-box">
+
+            <div class="populars">
+                <img src="images/slider/slider1.jpg" alt="">
+                <div class="details">
+                    <span>Updated 5/8/22</span>
+                    <a href="#"><h1>Black CLover</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populars">
+              <img src="images/slider/slider2.jpg" alt="">
+                <div class="details">
+                  <span>Updated 5/8/22</span>
+                  <a href="#"><h1>One Piece</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populars">
+              <img src="images/slider/slider3.jpg" alt="">
+                <div class="details">
+                  <span>Updated 5/8/22</span>
+                  <a><h1>My Hero Academia</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populars">
+              <img src="images/slider/slider4.jpg" alt="">
+                <div class="details">
+                  <span>Updated 5/8/22</span>
+                  <a><h1>Demon Slayer</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populars">
+              <img src="images/slider/slider5.jpg" alt="">
+                <div class="details">
+                  <span>Updated 5/8/22</span>
+                  <a><h1>Tokyo Revengers</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="populars">
+              <img src="images/slider/slider6.jpg" alt="">
+                <div class="details">
+                  <span>Updated 5/8/22</span>
+                  <a href="#"><h1>Attack On Titan</h1></a>
+                    <div class="star">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                        <i class="fa fa-star-o"></i>
+                        <span>(567)</span>
+                    </div>
+                    <div class="imd">
+                      <img class="s-imdb" src="images/trending/IMDb-icon.png" alt="">
+                      <a id="moreD">More Details</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- registration -->
+    <section id="registration">
+        <div class="reminder">
+          <div class="txtanimate">
+           <h6>Get Limited Anime</h6>
+          </div>
+            <h1>Register to 
+              <span
+               class="txt-rotate"
+               data-period="1000"
+               data-rotate='[ "Get it.", "Watch FREE!", "Get Limited Anime Series.", "Get FUN!" ]'></span>
+            </h1>
+            <div class="time">
+                <div class="date">
+                    18 <br> Days
+                </div>
+                <div class="date">
+                    23 <br> Hours
+                </div>
+                <div class="date">
+                    24 <br> Minutes
+                </div>
+                <div class="date">
+                    43 <br> Seconds
+                </div>
+            </div>
+        </div>
+
+        <div class="form">
+            <h3>Join Us NOW!</h3>
+            <input type="text" placeholder="Name" name="" id="">
+            <input type="text" placeholder="Email Address" name="" id="">
+            <input type="text" placeholder="Phone number" name="" id="">
+            <div class="btn">
+                <a class="yellow" href="#">Submit Form</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer start -->
+    <footer class="iq-bg-dark">
+        <div class="footer-top">
+          <div class="container-fluid">
+            <div class="row footer-standard">
+              <div class="col-lg-5">
+                <div class="widget text-left">
+                  <div>
+                    <ul class="menu p-0">
+                      <li><a href="#">Terms of Use</a></li>
+                      <li><a href="#">Privacy-Policy</a></li>
+                      <li><a href="#">FAQ</a></li>
+                      <li><a href="#">Watch List</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="widget text-left">
+                  <div class="textwidget">
+                    <p>Anime.tv is a Free Anime streaming site with zero ads. We let you watch animes online without having
+                      to register or paying, with over thousands anime and Anime-Series. You can Download full anime from
+                      AnimeCloud and watch it later if you want. <br> <b>©</b>
+                      <strong> Copyrights 2022 </strong>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <h6 class="footer-link-title">
+                  Follow Us:
+                </h6>
+                <ul class="info-share">
+                  <li>
+                    <a href="#">
+                      <i>
+                        <fa class="fa fa-facebook"></fa>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <fa class="fa fa-youtube"></fa>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <i>
+                        <fa class="fa fa-instagram"></fa>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                <div class="widget text-left">
+                  <div class="textwidget">
+                    <h6 class="footer-link-title">
+                      <a href="#"><img class="f-logo" src="images/short-icon.png" alt=""> a.TV Company</a>
+                    </h6>
+                    <div class="d-flex align-items-center">
+                      <a href="#"><img src="images/footer/01.jpg" alt=""></a>
+                      <br>
+                      <a href="#" class="ml-3"><img src="images/footer/02.jpg" alt=""></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer ends -->
+    
+      <!-- js files  -->
+      <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/jQuery.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <script src="js/materialize-1.0.0.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/owl.carousel.min.js"></script>
+      <script src="js/select2.min.js"></script>
+      <script src="js/jquery.magnific-popup.min.js"></script>
+      <script src="js/slick-animation.min.js"></script>
+    
+      <script src="main.js"></script>
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+    
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+    </body>
+    </html>

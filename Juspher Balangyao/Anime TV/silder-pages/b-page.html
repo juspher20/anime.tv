@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Watch | One Piece </title>
+    <link rel="shortcut icon" href="../images/short-icon.png">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/slick-theme.css" />
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../css/animate.min.css" />
+    <link rel="stylesheet" href="../css/magnific-popup.css" />
+    <link rel="stylesheet" href="../css/select2.min.css" />
+    <link rel="stylesheet" href="../css/select2-bootstrap5.min.css" />
+    <link rel="stylesheet" href="../css/slick-animation.css" />
+    <link rel="stylesheet" href="../style.css" />
+</head>
+
+<body>
+
+    <!-- scroll progess-bar -->
+    <div id="progess">
+        <span id="progess-value"></span>
+    </div>
+    <!-- header -->
+    <header id="main-header">
+        <div class="main-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="navbar navbar-expand-lg navbar-light p-2">
+                            <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <div class="navbar-toggler-icon" data-toggle="collapse">
+                                    <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                                    <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                                    <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                                </div>
+                            </a>
+                            <a href="../index.html" class="navbar-brand">
+                                <img src="../images/logo.png" class="img-fluid logo" alt="" />
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="menu-main-menu-container">
+                                    <ul id="top-menu" class="navbar-nav ml-auto">
+                                        <li class="menu-item"><a href="../index.html">Home</a></li>
+                                        <li class="menu-item"><a href="../p-animes.html" id="active">Watch</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="../manga.html">read Manga</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="../aboutus.html">About Us</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="../contact.html">Contact</a></li>
+                                                <li class="menu-item"><a href="../joinus.html">Join Us</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item"><a href="#">category</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="#">Action</a></li>
+                                                <li class="menu-item"><a href="#">Comedy</a></li>
+                                                <li class="menu-item"><a href="#">Adventures</a></li>
+                                                <li class="menu-item"><a href="#">Fantasy</a></li>
+                                                <li class="menu-item"><a href="#">Romance</a></li>
+                                                <li class="menu-item"><a href="#">Horror</a></li>
+                                                <li class="menu-item"><a href="#">Sci-Fi</a></li>
+                                                <li class="menu-item"><a href="#">School</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item "><i class="fa fa-language"></i><a>English</a>
+                                            
+                                          </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mobile-more-menu">
+                                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
+                                    data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </a>
+                                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="navbar-right position-relative">
+                                        <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                                            <li>
+                                                <a href="#" class="search-toggle">
+                                                    <i class="fa fa-search"></i>
+                                                </a>
+                                                <div class="search-box iq-search-bar">
+                                                    <form action="#" class="searchbox">
+                                                        <div class="form-group position-relative">
+                                                            <input type="text" class="text search-input font-size-12"
+                                                                placeholder="type here to search..." />
+                                                            <i class="search-link fa fa-search"></i>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="iq-user-dropdown search-toggle d-flex align-items-center">
+                                                    <img src="../images/user/user-icon.jpg"
+                                                        class="img-fluid user-m rounded-circle" alt="" />
+                                                </a>
+                                                <div class="iq-sub-dropdown iq-user-dropdown">
+                                                    <div class="iq-card shadow-none m-0">
+                                                        <div class="iq-card-body p-0 pl-3 pr-3">
+                                                            <a href="../setting.html" class="iq-sub-card setting-dropdown">
+                                                                <div class="media align-items-center">
+                                                                    <div class="right-icon">
+                                                                        <i class="fa fa-cog text-primary"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-3">
+                                                                        <h6 class="mb-0">Settings</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="../login.html" class="iq-sub-card setting-dropdown">
+                                                                <div class="media align-items-center">
+                                                                    <div class="right-icon">
+                                                                        <i class="fa fa-sign-out text-primary"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-3">
+                                                                        <h6 class="mb-0">Sign in</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="navbar-right menu-right">
+                                <ul class="d-flex align-items-center list-inline m-0">
+                                    <li class="nav-item nav-icon">
+                                        <a href="#" class="search-toggle device-search">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <div class="search-box iq-search-bar d-search">
+                                            <form action="#" class="searchbox">
+                                                <div class="form-group position-relative">
+                                                    <input type="text" class="text search-input font-size-12"
+                                                        placeholder="type here to search..." />
+                                                    <i class="search-link fa fa-search"></i>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item nav-icon">
+                                        <a href="#"
+                                            class="iq-user-dropdown search-toggle d-flex align-items-center p-0">
+                                            <img src="../images/user/user-icon.jpg"
+                                                class="img-fluid user-m rounded-circle" alt="" />
+                                        </a>
+
+                                        <div class="iq-sub-dropdown iq-user-dropdown">
+                                            <div class="iq-card shadow-none m-0">
+                                                <div class="iq-card-body p-0 pl-3 pr-3">
+                                                    <a href="../setting.html" class="iq-sub-card setting-dropdown">
+                                                        <div class="media align-items-center">
+                                                            <div class="right-icon">
+                                                                <i class="fa fa-cog text-primary"></i>
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <h6 class="mb-0">Settings</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <a href="../login.html" class="iq-sub-card setting-dropdown">
+                                                        <div class="media align-items-center">
+                                                            <div class="right-icon">
+                                                                <i class="fa fa-sign-out text-primary"></i>
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <h6 class="mb-0">Sign in</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="nav-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content-two fadeInUp animated" data-animation-in="fadeInUp" data-delay-in="0.5">
+        <section class="movie-banner mt-4">
+            <div class="m-banner-img">
+                <img src="../images/gif/2.gif" alt="">
+            </div>
+            <div class="banner-container">
+                <div class="title-container">
+                    <div class="title-top">
+                        <div class="movie-title">
+                            <h1 class="text-uppercase">One Piece</h1>
+                        </div>
+
+                        <div class="more-about-movie">
+                            <span class="quality">Full HD</span>
+                            <div class="rating">
+                                8.2 <img src="../images/trending/IMDb-icon.png" alt="imbd">
+                            </div>
+                            <span>28 August 2021</span>
+                        </div>
+                        <div class="language">
+                            <span>English</span>
+                            <span>Japanese</span>
+                        </div>
+                    </div>
+                    <div class="title-bottom">
+                        <div class="category">
+                            <strong>Category</strong><br>
+                            <a href="#">Adventure</a>,<a href="#">Mistery</a>,
+                            <a href="#">Fantasy</a>
+                        </div>
+                        <a href="#" class="watch-btn">Watch Trailer</a>
+                    </div>
+                </div>
+                <div class="play-btn-container">
+                    <div class="play-btn">
+                        <a href="javascript:void">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+        </section>
+        <section class="container-fluid">
+            <div class="episodes-contens mt-4">
+                <div class="owl-carousel owl-theme episodes-slider1 list-inline p-0 m-0">
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op1.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 1</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">Ryomen Sukuna</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op2.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 2</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">For Myself</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op4.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 3</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">Girl of Steel</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op5.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 4</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">Curse Womb Must Die</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op6.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 5</a>
+                                <span class="text-primary"> 25 minutes</span>
+                            </div>
+                            <p class="mb-0"> Curse Womb Must Die II</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op7.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 6</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">After Rain</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op8.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 7</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">Assault</p>
+                        </div>
+                    </div>
+                    <div class="e-item">
+                        <div class="block-image position-relative">
+                            <a href="#">
+                                <img src="../images/episodes/op9.webp" class="img-fluid" alt="">
+                            </a>
+                            <div class="episode-play-info">
+                                <div class="episode-play">
+                                    <a href="#" tabindex="0">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="episodes-description text-body">
+                            <div class="d-flex align-items-center justify-content-between">
+                                <a href="#">Episode 8</a>
+                                <span class="text-primary">25 minutes</span>
+                            </div>
+                            <p class="mb-0">Boredom</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="movie-details">
+            <strong>One Piece </strong>
+            <p>The series focuses on Monkey D. Luffy, a young man made of rubber, whom, inspired by his childhood idol,
+                the powerful pirate "Red Haired" Shanks, sets off on a journey from the East Blue Sea to find the
+                mythical treasure, the One Piece, and proclaim himself the King of the Pirates. In an effort to organize
+                his own crew, the Straw Hat Pirates, Luffy rescues and befriends a pirate hunter and swordsman
+                named Roronoa Zoro, and they head off in search of the titular treasure.
+            </p>
+            <p>
+                They are joined in their journey by Nami, a money-obsessed thief and navigator; Usopp, a sniper and
+                compulsive liar; and Sanji, a perverted but chivalrous chef. They acquire a ship, the Going Merry,
+                and engage in confrontations with notorious pirates of the East Blue. As Luffy and his crew set out on
+                their adventures, others join the crew later in the series, including Tony Tony Chopper, an
+                anthropomorphized reindeer doctor; Nico Robin, an archaeologist and former Baroque Works assassin;
+                Franky, a cyborg shipwright; Brook, a skeleton musician and swordsman; and Jimbei, a fish-man helmsman
+                and former member of the Seven Warlords of the Sea. Once the Going Merry becomes damaged beyond repair,
+                the Straw Hat Pirates acquire a new ship, the Thousand Sunny, built by Franky.F
+            </p>
+            <p>
+                Together, they encounter other pirates, bounty hunters, criminal organizations, revolutionaries, secret
+                agents, and soldiers of the corrupt World Government, and various other friends and foes, as they sail
+                the seas in pursuit of their dreams.
+            </p>
+            <div class="another-details" id="hide" style="display: none;">
+                <p>
+                    The world of One Piece is populated by humans and many other races, such as fish-men and merfolk
+                    (two races of fish/human hybrids), dwarves, minks (a race of humanoids with animal features), and
+                    giants. It is covered by two vast oceans, which are divided by a massive mountain range called the
+                    Red Line, which is also the only continent in the world. The Grand Line, a sea that
+                    runs perpendicular to the Red Line, further divides them into four seas: North Blue,East
+                    Blue, West Blue,and South Blue. Surrounding the Grand Line are two regions
+                    called Calm Belts, similar to horse latitudes, which experience almost no wind or ocean
+                    currents and are the breeding ground for huge sea creatures called sea kings. Because of
+                    this, the calm belts are very effective barriers for those trying to enter the Grand Line.
+                    However, navy ships, members of an intergovernmental organization known as the World Government, are
+                    able to use a sea-prism stone to mask their presence from the sea kings and can simply pass
+                    through the calm belts. All other ships are forced to take a more dangerous route, going through a
+                    mountain at the first intersection of the Grand Line and the Red Line, a canal system known as
+                    Reverse Mountain. Sea water from each of the four seas runs up that mountain and merges at
+                    the top to flow down a fifth canal and into the first half of the Grand Line, called Paradise
+                    because how it compared to the second half. The second half of the Grand Line, beyond the second
+                    intersection with the Red Line, is known as the New World.
+                </p>
+                <p>The currents and weather of the Grand Line's open sea are extremely unpredictable, whereas in the
+                    vicinity of islands the climate is stable. The magnetic fields within the Grand Line cause normal
+                    compasses to malfunction, making it even more difficult to navigate, and instead a special
+                    compass called a Log Pose must be used. The Log Pose functions by locking on to one
+                    island's magnetic field and then locking on to another island's magnetic field. The time for it
+                    to set depends on the island. This process can be bypassed by obtaining an Eternal Pose,
+                    a Log Pose variation that is permanently set to a specific island and never changes.
+                </p>
+                <p>
+                    The world of One Piece includes animals that function like devices. Transponder Snails are
+                    snail-like animals that act like a rotary phone, fax machine, or camera. Dials, the
+                    shells of certain sky-dwelling animals, can be used to store kinetic energy, wind, sound, images,
+                    heat, and the like and have various applications.
+                </p>
+                <div class="rdmore">
+                    <button class="text-uppercase cbtn" id="closebtn">Close</button>
+                </div>
+            </div>
+            <div class="rdmore">
+                <button class="text-uppercase closebtn" id="btn">Read more</button>
+            </div>
+        </section>
+        <section class="download-movie">
+            <div class="download-container">
+                <div class="download-box">
+                    <span><i class="fa fa-server"></i> Server 1</span>
+                    <span>English</span>
+                    <span>480p</span>
+                    <a href="#">Download</a>
+                </div>
+                <div class=" download-box ">
+                    <span><i class="fa fa-server "></i> Server 2</span>
+                    <span>English</span>
+                    <span>720p</span>
+                    <a href="# ">Download</a>
+                </div>
+                <div class="download-box ">
+                    <span><i class="fa fa-server "></i> Server 3</span>
+                    <span>English</span>
+                    <span>1080p</span>
+                    <a href="# ">Download</a>
+                </div>
+            </div>
+            <!-- <div class="play-btn-container">
+                <div class="play-btn">
+                    <a href="javascript:void">
+                        <i class="fas fa-play"></i>
+                    </a>
+                </div>
+            </div>
+            <div id="play" class="play">->
+                <a href="javascript:void" class="close-movie">
+                    <i class="fas fa-times"></i>
+                </a>
+
+                <div class="play-movie">
+                    <video id="m-video" controls>
+                        <source src="#" type="video/mp4">
+                    </video>
+                </div>
+            </div> -->
+        </section>
+        <section id="iq-suggested" class="s-margin">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12 overflow-hidden">
+                        <div class="iq-main-header d-flex align-items-center justify-content-between">
+                            <h4 class="main-title">Related Anime Movies</h4>
+                        </div>
+                        <div class="favorite-contens">
+                            <ul class="favorites-slider list-inline row p-0 mb-0">
+                                <!-- slide item 1 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/01.jpg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">Doreamon</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">The Adventure</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- slide item 2 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/02.jpeg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">Yokai Watch</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">Ghost Hunting</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- slide item 3 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/03.jpg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">Buruto</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">Child</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- slide item 4 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/04.jpg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">Hunter X Hunter</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">New King</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- slide item 5 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/05.webp" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">Assasination Classroom</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">Hide</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- slide item 6 -->
+                                <div class="slide-item">
+                                    <div class="block-images position-relative">
+                                        <div class="img-box">
+                                            <img src="../images/suggested/06.jpg" class="img-fluid" alt="" />
+                                        </div>
+                                        <div class="block-description">
+                                            <h6 class="iq-title">
+                                                <a href="#">One Piece</a>
+                                            </h6>
+                                            <div class="anime-time d-flex align-items-center my-2">
+                                                <div class="badge badge-secondary p-1 mr-2">12+</div>
+                                                <span class="text-white">Luffy Wedding</span>
+                                            </div>
+                                            <div class="hover-buttons">
+                                                <span class="btn btn-hover iq-button">
+                                                    <i class="fa fa-play mr-1"></i>
+                                                    Watch Now
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- footer start -->
+    <footer class="iq-bg-darK">
+        <div class="footer-top">
+            <div class="container-fluid">
+                <div class="row footer-standard">
+                    <div class="col-lg-5">
+                        <div class="widget text-left">
+                            <div>
+                                <ul class="menu p-0">
+                                    <li><a href="#">Terms of Use</a></li>
+                                    <li><a href="#">Privacy-Policy</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                    <li><a href="#">Watch List</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget text-left">
+                            <div class="textwidget">
+                                <p>Anime.tv is a Free Anime streaming site with zero ads. We let you watch animes online
+                                    without having
+                                    to register or paying, with over thousands anime and Anime-Series. You can Download
+                                    full anime from
+                                    AnimeCloud and watch it later if you want. <br> <b>©</b>
+                                    <strong> Copyrights 2022 </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <h6 class="footer-link-title">
+                            Follow Us:
+                        </h6>
+                        <ul class="info-share">
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-facebook"></fa>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-youtube"></fa>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-instagram"></fa>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="widget text-left">
+                            <div class="textwidget">
+                                <h6 class="footer-link-title">
+                                    <a href="#"><img class="f-logo" src="../images/short-icon.png" alt=""> a.TV
+                                        Company</a>
+                                </h6>
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img src="../images/footer/01.jpg" alt=""></a>
+                                    <br>
+                                    <a href="#" class="ml-3"><img src="../images/footer/02.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- js files  -->
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jQuery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/materialize-1.0.0.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/slick.min.js"></script>
+    <script src="../js/owl.carousel.min.js"></script>
+    <script src="../js/select2.min.js"></script>
+    <script src="../js/jquery.magnific-popup.min.js"></script>
+    <script src="../js/slick-animation.min.js"></script>
+
+    <script src="../main.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') +
+                '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+
+</html>
